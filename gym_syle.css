@@ -1,0 +1,22 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url("back_image.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    
+}
+
+h1{
+    background-color: dimgrey;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    height: 100px;    
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}

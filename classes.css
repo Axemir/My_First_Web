@@ -1,0 +1,9 @@
+.head_font{
+    font-size: 500%;
+    align-items:flex-end;
+}
+.flexbox{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
