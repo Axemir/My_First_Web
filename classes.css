@@ -2,8 +2,12 @@
     font-size: 500%;
     
 }
-.flexbox{
+.header_center{
     display:flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-between;
 }
+.head_list{
+    display:flex;
+    justify-content: space-evenly;
+}
+

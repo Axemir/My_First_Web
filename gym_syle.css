@@ -1,23 +1,37 @@
+
 body{
+    width: 100%;
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    margin: auto;
+
+    /*
     background-image: url("back_image.jpeg") ;
     background-repeat: no-repeat;
     background-size: cover;
-}
-header{
-    display:flex;
-    align-items: center;
-}
-
-h1{
-    background-color: dimgrey;
-    margin-left: 0px;
-    margin-top: 0px;
-    margin-right: 0px;
-    height: 100px;    
+    */
 }
 
 main{
     width: 80%;
     margin: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #afadad;
+    border-bottom: 10px black solid;
+}
+footer{
+    width: 100%;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+    
 }
