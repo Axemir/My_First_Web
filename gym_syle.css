@@ -32,6 +32,9 @@ a{
     text-decoration: none;
 }
 ul{
-    list-style:none;
-    
+    list-style:none;        
+}   
+li{
+    margin-left: 10px;
+    margin-right: 10px;
 }

@@ -3,8 +3,10 @@
     
 }
 .header_center{
+    max-width: 1000px;
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 .head_list{
     display:flex;
