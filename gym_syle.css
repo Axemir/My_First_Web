@@ -5,6 +5,7 @@ body{
     font-weight: bold;
     font-size: 150%;
     margin: auto;
+    background-color: black;
 
     /*
     background-image: url("back_image.jpeg") ;
@@ -22,7 +23,7 @@ header{
     justify-content: center;
     width: 100%;
     background-color: #afadad;
-    border-bottom: 10px black solid;
+    border-bottom: 10px #66CCCC solid;
 }
 footer{
     width: 100%;
@@ -30,11 +31,15 @@ footer{
 }
 a{
     text-decoration: none;
+    color: #339999;
 }
 ul{
     list-style:none;        
 }   
 li{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px rgb(27, 26, 26);
+    margin-right: 15px;
+}
+h4{
+    font-weight: bold;
 }
