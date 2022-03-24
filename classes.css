@@ -2,11 +2,18 @@
     font-size: 500%;
     
 }
-.header_center{
+.header_top img{ 
+    margin-right: 1rem;
+}
+.header_top{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+.header_bottom{
     max-width: 1000px;
     display:flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;  
 }
 .head_list{
     display:flex;
@@ -39,11 +46,24 @@
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.431);
     color:azure;
-    padding:5rem 5rem;
+    padding:3rem 3rem;
 
 }
 .slider_text h5{
     font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2.5rem;
+}
+.slider_text p{
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    
+}
+@keyframes cycle-images{
+
 }
    
     
