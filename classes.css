@@ -86,7 +86,7 @@
 .offers{   
     display:flex;
     justify-content: center; 
-    background-color: white;    
+    background-color: white;
 }
 .table{
     width: 100%;;
@@ -96,6 +96,7 @@
     align-items: center; 
     border-top: 10px solid #66CCCC;
     border-bottom: 10px solid#66CCCC;
+     
     
 }
 .table_part{    
@@ -128,15 +129,51 @@
     top: 0;
     left: -10%;
     width: 0;
-    height: 100%;
-    background-color: #66CCCC;
+    height: 100%;        
+    background-image: linear-gradient(to left,#b3e9e9 20%,#66CCCC); 
     transform: skewX(25deg);
-    z-index: 0;
+    z-index: -1;
     transition: width .5s;
 }
 .button-table:hover::before{
     width: 120%;
 }
+.about_us{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Onas_image.jpg");
+    background-size: cover;
+    border-bottom: 10px solid#66CCCC;
+}   
+.about_us_div{
+    opacity: 80%;
+    width: 60%;
+    padding: 2rem;
+    background-color: white;
+    border: 10px solid#66CCCC;
+   
+}
+.footer_top{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer_bottom{
+    display:flex;
+    justify-content: center;
+    
+}
+.footer_bottom p{
+    color: white;
+}
+.contact_data{
+    color: white
+}
+
 
 
 
