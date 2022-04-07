@@ -19,6 +19,26 @@
     display:flex;
     justify-content: space-evenly;
 }
+#list-button{
+    position: relative;
+    overflow: hidden;
+}
+#list-button:hover{
+    color: #4cc5c5;
+}
+#list-button::before{
+    content: '';
+    position: absolute;
+    background-color: rgb(60, 213, 233);
+    height: 3px;
+    width: 0%;
+    left: 0%;
+    bottom: -7.5%;
+    transition: width 0.5s;
+}
+#list-button:hover::before{
+    width: 100%;
+}
 .cute_slider{
     width: 100%;
     height: 100vh;
@@ -84,6 +104,7 @@
 }
 
 .offers{   
+    width: 100%;
     display:flex;
     justify-content: center; 
     background-color: white;
@@ -172,6 +193,12 @@
 }
 .contact_data{
     color: white
+}
+.map h3{
+    color: white;
+}
+.map iframe{
+    height: fit-content;    
 }
 
 
