@@ -16,6 +16,7 @@
     justify-content: center;  
 }
 .head_list{
+    list-style:none;
     display:flex;
     justify-content: space-evenly;
 }
@@ -188,8 +189,9 @@
     justify-content: center;
     
 }
-.footer_bottom p{
+.footer_bottom a{
     color: white;
+    padding: 2rem;
 }
 .contact_data{
     color: white
@@ -200,6 +202,32 @@
 .map iframe{
     height: fit-content;    
 }
+.harmonogram_s{
+    display: flex;      
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: white;
+    border: 10px solid#66CCCC; 
+}
+.week{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.main_s{
+    background-image: radial-gradient(rgb(90, 88, 88), white);   
+    display: flex;
+    align-items: center;    
+}
+.timetable{
+    display:flex;
+    flex-direction: column;
+}
+
 
 
 
