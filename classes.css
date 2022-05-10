@@ -227,6 +227,23 @@
     display:flex;
     flex-direction: column;
 }
+.cennik_main{
+    width: 80%;
+    display:flex;
+    justify-content: center;
+}
+.cms{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cms_d{
+    display:flex;
+    justify-content: center;
+}
+.trener_border{
+    max-width: 50%;
+}
 
 
 
