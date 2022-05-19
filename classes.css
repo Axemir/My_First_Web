@@ -1,7 +1,5 @@
-.head_font{
-    font-size: 500%;
-    
-}
+/* index */
+/* header */
 .header_top img{ 
     margin-right: 1rem;
 }
@@ -40,6 +38,9 @@
 #list-button:hover::before{
     width: 100%;
 }
+
+/* section1 - slider */
+
 .cute_slider{
     width: 100%;
     height: 100vh;
@@ -104,6 +105,8 @@
 
 }
 
+/* section2 - fancy buttons */
+
 .offers{   
     width: 100%;
     display:flex;
@@ -160,6 +163,9 @@
 .button-table:hover::before{
     width: 120%;
 }
+
+/* section3 - about us*/
+
 .about_us{
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -179,6 +185,9 @@
     border: 10px solid#66CCCC;
    
 }
+
+/* footer */
+
 .footer_top{
     width: 80%;
     display: flex;
@@ -202,6 +211,9 @@
 .map iframe{
     height: fit-content;    
 }
+
+/* harmonogram */
+
 .harmonogram_s{
     display: flex;      
     justify-content: center;
@@ -218,31 +230,46 @@
     flex-direction: column;
     width: 100%;
 }
-.main_s{
+.harmonogram_main{
     background-image: radial-gradient(rgb(90, 88, 88), white);   
     display: flex;
-    align-items: center;    
+    align-items: center;  
+    border-bottom: 10px solid#66CCCC;  
 }
 .timetable{
     display:flex;
     flex-direction: column;
 }
-.cennik_main{
+
+/* trenerzy */
+
+.trenerzy_main{
+    min-height: 50vh;
     width: 80%;
     display:flex;
-    justify-content: center;
+    justify-content: center; 
 }
-.cms{
+.tms{
     display:flex;
     flex-direction: column;
     align-items: center;
 }
-.cms_d{
+.tms_d{
     display:flex;
     justify-content: center;
 }
 .trener_border{
     max-width: 50%;
+}
+.trenerzy_footer{
+    border-top: 10px solid#66CCCC;
+}
+
+/* cennik */
+
+.cennik_main{
+    min-height: 50vh;
+    border-bottom: 10px solid#66CCCC;
 }
 
 
