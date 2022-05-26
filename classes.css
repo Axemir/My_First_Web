@@ -1,5 +1,6 @@
 /* index */
 /* header */
+
 .header_top img{ 
     margin-right: 1rem;
 }
@@ -185,7 +186,28 @@
     border: 10px solid#66CCCC;
    
 }
+/* section4 - regulamin */
 
+.regulamin{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgb(182, 173, 173) 60%, white);
+    border-bottom: 10px solid#66CCCC;
+}
+.regulamin_div{
+    opacity: 80%;
+    width: 60%;
+    padding: 2rem;
+    background-color: white;
+    border: 10px solid#66CCCC;
+}
+.regulamin_ul{
+    list-style: decimal;
+}
 /* footer */
 
 .footer_top{
@@ -243,13 +265,24 @@
 
 /* trenerzy */
 
+.trenerzy_body{
+    background-color: #000000;
+}
+
 .trenerzy_main{
     min-height: 50vh;
+    padding-top: 5rem;
     width: 80%;
+    
     display:flex;
     justify-content: center; 
 }
 .tms{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 80%;
+    background-color: white;
+    border: 10px solid#66CCCC;    
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -260,16 +293,35 @@
 }
 .trener_border{
     max-width: 50%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.trenerzy_footer{
-    border-top: 10px solid#66CCCC;
+.trenerzy_img{
+    height: 400px;
+    width: 300px;
+    
 }
 
 /* cennik */
 
 .cennik_main{
-    min-height: 50vh;
-    border-bottom: 10px solid#66CCCC;
+    background-image: radial-gradient(rgb(90, 88, 88), white);   
+    display: flex;
+    align-items: center;  
+    border-bottom: 10px solid#66CCCC; 
+}
+.cennik_main_section{
+    display: flex;      
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: white;
+    border: 10px solid#66CCCC;
 }
 
 
