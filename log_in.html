@@ -9,28 +9,28 @@
   <link rel="stylesheet" href="form.css">
   
     
-    <title>Formularz Wiadomości</title>
+    <title>Formularz Logowania</title>
 </head>
 <body>
   <section class="message_section">
     <p class="title">
-      Formularz Wiadomości
+      Formularz Logowania
     </p>
     <form class="form_group" action="insert.php" method="POST">
       <div class="input_field">
-        <label class="form_label">Imię</label>
-        <input type="text" name="name" class="form_input" placeholder="Imię">
+        <label class="form_label">Nazwa użytkownika</label>
+        <input type="text" name="username" class="form_input" placeholder="Nazwa użytkownika">
       </div> 
       <div class="input_field">
-        <label class="form_label">Nazwisko</label>
-        <input type="text" name="surrname" class="form_input" placeholder="Nazwisko">
+        <label class="form_label">E-mail</label>
+        <input type="text" name="e-mail" class="form_input" placeholder="E-mail">
       </div> 
       <div class="input_field">
-        <label class="form_label">Wiadomość</label>
-        <textarea type="text" rows="5" class="form_input" id="textarea" name="message" placeholder="Wiadomość"></textarea>
+        <label class="form_label">Hasło</label>
+        <input type="text" name="password" class="form_input" placeholder="Hasło">
       </div> 
       <div class="input_field">
-        <input type="submit" name="submit" class="button" value="Wyślij">
+        <input type="submit" name="submit" class="button" value="Zaloguj">
       </div>
       
     </form>   
