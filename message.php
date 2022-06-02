@@ -57,12 +57,7 @@
         ?>
     </section> 
     <footer>
-        <?php
-        session_start();
-        session_unset();
-        session_destroy();
-        header("Location:index.html")
-        ?>
+        <a href="log_out.php">Wyloguj</a>
     </footer>   
 </body>
 </html>
