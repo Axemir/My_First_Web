@@ -1,4 +1,4 @@
-/* plik css od formularza */
+/* plik css od formularza i php */
 
 body{
   width: 100%;
@@ -83,4 +83,16 @@ body{
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.insert_section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  background-color: #66CCCC;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: rgb(88, 168, 186) 0px 48px 100px 0px;
+  font-size:small;
 }
