@@ -7,36 +7,35 @@
     <title>Document</title>
 </head>
 <body>
-<main>
-<section class="insert_section">
-<?php
+    <main>
+        <section class="insert_section">
+            <?php
 
-include "db-connection.php";
+            include "db-connection.php";
 
-if(isset($_POST['submit']) && !empty($_POST['submit']))
-{
-    $name = $_POST['name'];
-    $surname = $_POST['surname'];
-    $message = $_POST['message'];    
+            if(isset($_POST['submit']) && !empty($_POST['submit']))
+            {
+                $name = $_POST['name'];
+                $surname = $_POST['surname'];
+                $message = $_POST['message'];    
 
-    $insert = mysqli_query($db, "INSERT INTO `wiadomosc` (`imie`,`nazwisko`,`wiadomosc`) VALUES ('$name','$surname','$message')");
+                $insert = mysqli_query($db, "INSERT INTO `wiadomosc` (`imie`,`nazwisko`,`wiadomosc`) VALUES ('$name','$surname','$message')");
 
-    if(!$insert){
-        printf("Wystąpił błąd: %s\n", mysqli_error($link));
-    }
-    else{
-        echo "Twoja Wiadomość została wysłana";
-    }
+                if(!$insert){
+                    printf("Wystąpił błąd: %s\n", mysqli_error($link));
+                }
+                else{
+                    echo "Twoja Wiadomość została wysłana";
+                }
 
-}
-else{
-    echo "Brak danych w formularzu";
-}
-mysqli_close($db);
+            }
+            else{
+                echo "Brak danych w formularzu";
+            }
+            mysqli_close($db);
 
-?>
-</section>
-</main>
-
+            ?>
+        </section>
+    </main>    
 </body>
 </html>
