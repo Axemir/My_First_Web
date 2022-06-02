@@ -22,7 +22,7 @@
                 $email=stripcslashes($email);
                 $password=stripcslashes($password);
 
-                $sql="SELECT * FROM uzytkownicy where username='$username' and e-mail='$email' and password='$password'";
+                $sql="SELECT * FROM uzytkownicy where username='$username' and email='$email' and password='$password'";
                 $result=mysqli_query($db, $sql);
                 $row=mysqli_fetch_assoc($result);
                 $count=mysqli_num_row($result);
