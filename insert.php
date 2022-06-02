@@ -8,7 +8,7 @@
 </head>
 <body>
 <main>
-    <section>
+<section class="insert_section">
 <?php
 
 include "db-connection.php";
